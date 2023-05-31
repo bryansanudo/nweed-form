@@ -26,11 +26,6 @@ const Header = () => {
           <nav className="w-[80%] text-lg ">
             <div className="flex justify-between mx- gap-8">
               <ul className="flex gap-6  items-center justify-center">
-                <li className="">
-                  <h2>
-                    <span className="text-primary">Admin</span>
-                  </h2>
-                </li>
                 <li className="hover:text-primary hover:scale-105 duration-400">
                   <NavLink className={activeLink} to="/">
                     Publicaciones

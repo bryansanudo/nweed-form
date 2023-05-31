@@ -146,7 +146,8 @@ const PostPublications = () => {
             value={publication.title}
             onChange={(e) => handleInputChange(e)}
           />
-          <label className="w-full text-left">Imagen Del Producto</label>
+
+          <label className="w-full text-left">Imagen de la publicacion</label>
           {uploadProgress === 0 ? null : (
             <div className="bg-[#aaa] border-[1px] border-[solid] rounded-[10px] w-full">
               <div
